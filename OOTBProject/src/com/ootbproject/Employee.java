@@ -12,7 +12,7 @@ public class Employee extends Person {
 	public Employee(String name, String jobTitle) {
 		super(name);
 		this.jobTitle = jobTitle;
-		System.out.println("Employee Constructor");
+		// System.out.println("Employee Constructor");
 	}
 
 	public String getJobTitle() {
